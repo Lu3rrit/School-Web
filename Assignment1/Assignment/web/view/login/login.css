@@ -1,0 +1,66 @@
+body {
+    background-color: rgba(253, 255, 216, 255);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 10% 30px 10%;
+    color: #f0f0e4;
+}
+
+.Login {
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px grey;
+    text-align: center;
+    margin-top: 50px;
+    flex: 1;
+    height: 420px;
+}
+
+.teacher {
+    background-color: rgba(104, 189, 225, 255);
+    margin: 30px;
+}
+
+.parent {
+    background-color: rgba(219, 95, 41, 255);
+    margin: 30px;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px grey;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+input {
+    width: 70%;
+    height: 45px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+#tea {
+    margin-top: 30px;
+    background-color: #1e81b0;
+    width: 150px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: large;
+    font-weight: bold;
+}
+
+#par {
+    margin-top: 30px;
+    background-color: rgba(193, 1, 0, 255);
+    width: 150px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: large;
+    font-weight: bold;
+}
